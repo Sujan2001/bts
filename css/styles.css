@@ -47,6 +47,7 @@ button{
 
 .dog{
   width: 60%;
+  margin-left: 5rem;
   transition: 1s ease;
 }
 
