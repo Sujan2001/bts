@@ -1,0 +1,81 @@
+#title{
+  background-color: #ff4c68;
+
+}
+
+#ti
+{
+  font-size: 3rem;
+}
+a{
+  font-size: 1rem;
+}
+.h{
+  color: white;
+  padding-right: 4rem;
+  margin-left: 2rem;
+}
+h1{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 5% 20%;
+}
+
+.ad{
+  padding-top: 10px;
+}
+
+.btn{
+
+  margin: 50px;
+}
+
+button{
+  margin-top: 15px;
+}
+
+.dog{
+  width: 60%;
+  transition: 1s ease;
+}
+
+
+.ro:hover .dog{
+  transform: rotate(25deg);
+}
+
+#features{
+  padding: 25px;
+  text-align: center;
+
+}
+.fas{
+  color: #ef8172;
+    animation-delay: 2s;
+  transition: 1s ease;
+
+}
+.fas:hover {
+    color: #c70039;
+    transform: rotate(25deg);
+}
+#h03{
+  font-family: 'Montserrat', bold;
+  font-size: 1.5rem;
+  padding:1rem;
+
+}
+p{
+  color: #8f8f8f;
+}
