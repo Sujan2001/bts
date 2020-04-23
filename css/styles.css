@@ -96,7 +96,7 @@ p{
     width: 300px;
     position:absolute;
     border-radius: 100%;
-    right: 0px;
+    right: 6.25rem;
     top: 0px;
 
 
@@ -106,7 +106,7 @@ p{
   width: 300px;
   position: absolute;
   border-radius: 100%;
-  right: 0px;
+  right: 6.25rem;
   top: 0px;
   opacity: 0;
   transition: 1s ease;
@@ -115,7 +115,7 @@ p{
 .test1{
   position: relative;
   height: 300px;
-  width: 300px;
+  width: 500px;
   margin-left: 50px;
 }
 
