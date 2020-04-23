@@ -115,7 +115,7 @@ p{
   position: relative;
   height: 300px;
   width: 300px;
-  left: auto;
+  margin-left: 50px;
 }
 
 .test1:hover .test-dog2{
@@ -135,8 +135,8 @@ h2
 
     margin-top: 50px;
     margin-bottom: 20px;
-    height: 200px;
-    width: 900px;
+    height: 600px;
+    width: 600px;
 
 }
 
