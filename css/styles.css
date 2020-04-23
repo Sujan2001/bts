@@ -80,3 +80,68 @@ button{
 p{
   color: #8f8f8f;
 }
+
+#testimonials{
+  margin: 2.5rem 0 0 0;
+  padding: 50px 0;
+  background-color:#ef8172;
+  text-align: center;
+  font-family: 'Montserrat', bold;
+  line-height: 3;
+  color: white;
+}
+.test-dog1{
+  margin: 15px;
+    width: 300px;
+    position:absolute;
+    border-radius: 100%;
+    right: 0px;
+    top: 0px;
+
+
+}
+.test-dog2{
+  margin: 15px;
+  width: 300px;
+  position: absolute;
+  border-radius: 100%;
+  right: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: 1s ease;
+;
+}
+.test1{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  left: auto;
+}
+
+.test1:hover .test-dog2{
+  opacity: 1;
+}
+
+#testimonials:hover{
+  background-color:  #8f8f8f;
+  text-transform:capitalize;
+}
+
+em{
+  font-family: 'Ubuntu', sans-serif;
+}
+h2
+{
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 900px;
+
+}
+
+#press{
+   background-color:#ef8172;
+   text-align: center;
+   padding-bottom: 10px;
+}
