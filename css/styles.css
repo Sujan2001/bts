@@ -144,7 +144,8 @@ h2
 #press{
    background-color:#ef8172;
    text-align: center;
-   padding-bottom: 10px;
+   padding-bottom: 1rem;
+   padding-top: 3rem;
 }
 
 .cd{
@@ -153,28 +154,27 @@ h2
   animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-
-
+  padding-bottom: 2rem;
 }
 .carousel-inner{
-  left: 250px;
-  bottom: 15px;
+  left: 15.625rem;
+  bottom: 1rem;
 
 }
 .carousel .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 0.57rem;
+  height: 0.57rem;
   border-radius: 100%;
   background-color:#aacfcf;
 }
 .carousel .carousel-indicators{
-  top: 300px;
+  top: 18.75rem;
 }
 
 
 .img-slide{
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   border-radius: 50%;
 }
 @keyframes back {
@@ -196,5 +196,5 @@ h2
   color: white;
 }
 .author{
-  margin-left: 200px;
+  margin-left: 12.5rem;
 }
