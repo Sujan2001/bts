@@ -3,19 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title>Dogtown</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
-
-
   <script src="https://kit.fontawesome.com/e9178b77e4.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -27,7 +23,7 @@
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a id="ti" class="navbar-brand" href="">tindog</a>
+        <a id="ti" class="navbar-brand" href="">Dogtown🐶️</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +44,7 @@
 
       <!-- Title -->
 
-      <div>
+      <div class="Title">
         <div class="row">
           <div class="col-lg-6">
             <h1 class="h">Meet new and interesting dogs nearby.</h1>
@@ -105,23 +101,19 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div class="container-fluid" style="padding-bottom:0px; height:400px">
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-        </div>
-        <div class="col-lg-3 ml-5" style="height:150px;">
-          <div class="test1"><img class="test-dog1" src="images/dog-img.jpg" alt="dog-profile"><br>
-            <img class="test-dog2" src="images/dog1.jpg" alt="dog-profile"></div><br>
+          <h2 class="testi-text">I no longer have to sniff other dogs for love.<br>I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testi-dog1" src="images/dog-img.jpg" alt="dog-profile">
+            <img class="testi-dog2" src="images/dog1.jpg" alt="dog-profile" style="bottom:236px;"></div><br>
 
-
-        </div>
 
       </div>
-    </div>
   </section>
+
+
+
+
   <div class="container-fluid cd">
-    <div id="dog-slide" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+    <div id="dog-slide" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000" data-hover:"">
       <ol class="carousel-indicators">
         <li data-target="dog-slide" data-slide-to="0" class="active"></li>
         <li data-target="dog-slide" data-slide-to="1" class="active"></li>
@@ -175,7 +167,7 @@
 
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 ">
-                        <img class="img-slide" src="https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="dog3">
+              <img class="img-slide" src="https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="dog3">
             </div>
             <div class="col-lg-1 col-md-1">
 
@@ -217,15 +209,18 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/TechCrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-image" src="images/TechCrunch.png" alt="tc-logo">
 
+
+    <img class="press-image" src="images/tnw.png" alt="tnw-logo">
+
+
+    <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
+    <br>
+    <br>
+    <br>
+    <img class="press-image" src="images/mashable.png" alt="mashable-logo">
   </section>
-
-
-  <!-- Pricing -->
 
   <section id="pricing">
 
@@ -233,29 +228,60 @@
     <p>Simple and affordable price plans for your and your dog.</p>
 
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="row">
+      <div  class="pricing-coloumn col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn  btn-lg btn-outline-dark " type="button">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
+      <div  class="pricing-coloumn col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-dark" type="button">Get Started</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="pricing-coloumn col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <button class="btn btn-lg btn-dark" type="button">Contact us</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
 
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
 
 
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+
 
   </section>
 
@@ -263,21 +289,29 @@
   <!-- Call to Action -->
 
   <section id="cta">
+    <div class="container-fluid call-action">
+      <h3 class="h3-action">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+    </div>
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
 
   </section>
 
 
   <!-- Footer -->
-
+<div class="container-fluid">
   <footer id="footer">
-
-    <p>© Copyright 2018 TinDog</p>
+    <a  class="footer-link" href="https://www.instagram.com/"><img class="footer-Insta" src="https://image.flaticon.com/icons/svg/1384/1384015.svg" alt="Insta"</a>
+    <a class="footer-link" href="https://twitter.com/login"><img class="footer-twitter" src="https://image.flaticon.com/icons/svg/39/39552.svg" alt="Twitter"</a>
+    <a class="footer-link" href="https://www.facebook.com/"><img class="footer-fb" src="https://image.flaticon.com/icons/svg/1384/1384005.svg" alt="FB"</a>
+    <br>
+    <br>
+    <p>© Copyright 2020 Dogtown🐶️</p>
 
   </footer>
+</div>
+
 
 
 </body>
