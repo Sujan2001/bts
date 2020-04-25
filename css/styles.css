@@ -3,7 +3,7 @@
 }
 
 .Title {
-  padding-bottom: 200px;
+  padding-bottom: 70px;
 }
 
 #ti {
@@ -55,7 +55,7 @@ h2 {
   width: 60%;
   margin-left: 5rem;
   transition: 1s ease;
-  position: absolute;
+
 }
 
 @media screen and (max-width: 1090px) {
@@ -79,7 +79,6 @@ h2 {
 #features {
   padding: 25px;
   text-align: center;
-  position: relative;
   background-color: white;
 }
 
